@@ -197,13 +197,13 @@ if page == "🏠 首页":
     st.markdown("## 🔥 超爱CP")
     rec1, rec2, rec3, rec4 = st.columns(4)
     with rec1:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/picture1.jpg", use_container_width=True)
+        st.image("images/picture1.jpg", use_container_width=True)
     with rec2:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/picture2.jpg", use_container_width=True)
+        st.image("images/picture2.jpg", use_container_width=True)
     with rec3:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/BV.jpg", use_container_width=True)
+        st.image("images/BV.jpg", use_container_width=True)
     with rec4:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/南肯.jpg", use_container_width=True)
+        st.image("images/南肯.jpg", use_container_width=True)
 
 # ========== 剧集列表页 ==========
 elif page == "📺 剧集列表":
@@ -232,10 +232,10 @@ elif page == "🎬 媒体墙":
     st.markdown("### 📸 精彩剧照")
     img1, img2, img3 = st.columns(3)
     with img1:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/偿还.jpg", use_container_width=True)
+        st.image("images/偿还.jpg", use_container_width=True)
     with img2:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/天堂票.jpg", use_container_width=True)
+        st.image("images/天堂票.jpg", use_container_width=True)
     with img3:
-        st.image("E:/python-demo/第四课 AI大模型应用/resources/检察官的提案.jpg", use_container_width=True)
+        st.image("images/检察官的提案.jpg", use_container_width=True)
 
 
