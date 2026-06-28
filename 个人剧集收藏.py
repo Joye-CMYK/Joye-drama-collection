@@ -138,7 +138,7 @@ df = pd.DataFrame(drama_data)
 
 # ========== 侧边栏 ==========
 with st.sidebar:
-    st.logo("第四课 AI大模型应用/resources/彩虹图片.jpg", size="large")
+    st.logo("images/彩虹图片.jpg", size="large")
     st.markdown("## 🌈 导航菜单")
     page = st.radio("选择页面", ["🏠 首页", "📺 剧集列表", "🎬 媒体墙"], label_visibility="collapsed")
 
